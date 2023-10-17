@@ -26,5 +26,5 @@ You can customize the shortcode by specifying two parameters:
 To use the shortcode, insert it into a post or page like this:
 
 ```plaintext
-[curlplugin api_url="https://api.example.com" key="message"]
+[curlplugin api_url="https://api.example.com" key="message" class_list="css_classes"]
 
