@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Plugin Name: Curl Plugin
+ * Plugin Name: Curl It
  * Plugin URI: https://tysonlmao.dev
  * Version: 0.1.0
  * Description: Does a cURL request and displays its result in a shortcode.

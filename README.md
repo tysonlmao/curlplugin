@@ -28,6 +28,3 @@ To use the shortcode, insert it into a post or page like this:
 ```plaintext
 [curlplugin api_url="https://api.example.com" key="message"]
 
-The Curl Plugin, along with all included libraries and assets, is licensed under the GPL (GNU General Public License) or compatible licenses.
-
-Feel free to contribute to this project and make it even better!
