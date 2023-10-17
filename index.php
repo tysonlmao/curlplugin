@@ -32,12 +32,13 @@ function curlplugin_shortcode($atts)
 {
     // Extract attributes (parameters) from the shortcode and set defaults.
     $atts = shortcode_atts(array(
-        'api_url' => 'https://api.pixelstats.app', // Default API URL
-        'key' => 'message',
+        'api_url' => 'https://api.sampleapis.com/coffee/hot', // Default API URL
+        'key' => 'description',
+        'class_list' => ''
     ), $atts);
 
     $message = fetch_curl_data($atts['api_url'], $atts['key']);
-    return '<h2 class="curlplugin-message">' . esc_html($message) . '</h2>';
+    return '<h2 class="curlplugin-message "' . $atts['class_list'] . '>' . esc_html($message) . '</h2>';
 }
 
 add_shortcode('curlplugin', 'curlplugin_shortcode');
