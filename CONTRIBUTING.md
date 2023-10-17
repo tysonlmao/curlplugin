@@ -6,13 +6,13 @@ Welcome to [Your Project Name]! We appreciate your interest in contributing to t
 
 ### Reporting Issues
 
-If you encounter a bug, have a feature request, or have any other concerns, please open an issue on the project's [GitHub Issues](https://github.com/yourusername/yourprojectname/issues) page. When opening an issue, provide as much detail as possible to help us understand the problem and reproduce it.
+If you encounter a bug, have a feature request, or have any other concerns, please open an issue on the project's [GitHub Issues](https://github.com/tysonlmao/curlplugin/issues) page. When opening an issue, provide as much detail as possible to help us understand the problem and reproduce it.
 
 ### Pull Requests
 
 We welcome contributions in the form of pull requests. Before submitting a pull request, please consider the following:
 
-1. **Fork the Repository:** To get started, fork the [GitHub repository](https://github.com/yourusername/yourprojectname) to your own GitHub account.
+1. **Fork the Repository:** To get started, fork the [GitHub repository](https://github.com/tysonlmao/curlplugin) to your own GitHub account.
 
 2. **Create a Branch:** Create a new branch for your changes. Use a branch name that reflects the feature or issue you're working on.
 
@@ -34,12 +34,8 @@ Please follow the project's coding guidelines. If the project has specific codin
 
 By contributing to this project, you agree that your contributions will be licensed under the project's open-source license. If you're not sure about the license, please check the project's [LICENSE](LICENSE) file.
 
-## Code of Conduct
-
-We expect all contributors to adhere to our Code of Conduct. Please review and follow the project's [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) to ensure a positive and inclusive environment for all.
-
 ## Questions
 
-If you have any questions about contributing to this project, feel free to reach out by creating an issue or contacting [Your Name](mailto:youremail@example.com).
+If you have any questions about contributing to this project, feel free to reach out by creating an issue or contacting [tysonlmao](tyson@tysonlmao.dev).
 
-Thank you for considering contributing to [Your Project Name]!
+Thank you for considering contributing to curlplugin!
