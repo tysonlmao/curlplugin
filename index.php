@@ -9,7 +9,7 @@
  * Author URI: https://github.com/tysonlmao
  */
 
-function fetch_pixelstats_data($api_url, $key)
+function fetch_curl_data($api_url, $key)
 {
     // Make a cURL request to the API.
     $response = wp_safe_remote_get($api_url);
@@ -28,15 +28,16 @@ function fetch_pixelstats_data($api_url, $key)
     }
 }
 
-function pixelstats_shortcode($atts)
+function curlplugin_shortcode($atts)
 {
-    // Extract attributes (parameters) from the shortcode.
+    // Extract attributes (parameters) from the shortcode and set defaults.
     $atts = shortcode_atts(array(
-        'api_url' => 'https://api.pixelstats.app',
+        'api_url' => 'https://api.pixelstats.app', // Default API URL
         'key' => 'message',
     ), $atts);
 
-    $message = fetch_pixelstats_data($atts['api_url'], $atts['key']);
-    return '<h2 class="pixelstats-message">' . esc_html($message) . '</h2>';
+    $message = fetch_curl_data($atts['api_url'], $atts['key']);
+    return '<h2 class="curlplugin-message">' . esc_html($message) . '</h2>';
 }
-add_shortcode('pixelstats', 'pixelstats_shortcode');
+
+add_shortcode('curlplugin', 'curlplugin_shortcode');
