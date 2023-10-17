@@ -38,7 +38,7 @@ function curlplugin_shortcode($atts)
     ), $atts);
 
     $message = fetch_curl_data($atts['api_url'], $atts['key']);
-    return '<h2 class="curlplugin-message "' . $atts['class_list'] . '>' . esc_html($message) . '</h2>';
+    return '<h2 class="curlplugin-message ' . esc_attr($atts['class_list']) . '">' . esc_html($message) . '</h2>';
 }
 
 add_shortcode('curlplugin', 'curlplugin_shortcode');
