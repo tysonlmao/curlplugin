@@ -1,6 +1,6 @@
-# Contributing to [Your Project Name]
+# Contributing to tysonlmao/curlplugin
 
-Welcome to [Your Project Name]! We appreciate your interest in contributing to this project. By participating, you not only help us improve this project but also become part of a thriving open-source community.
+Welcome to curlplugin! We appreciate your interest in contributing to this project. By participating, you not only help us improve this project but also become part of a thriving open-source community.
 
 ## How Can You Contribute?
 
